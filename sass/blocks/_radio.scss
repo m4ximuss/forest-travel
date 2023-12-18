@@ -1,0 +1,47 @@
+.real-radio {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    flex-shrink: 0;
+
+    background: #EEEEEE;
+    border: 1px solid #C0C0C0;
+    border-radius: 50%;
+}
+
+.custom-radio::before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+    background: #2AB698;
+
+    transition: transform 0.2s ease-in;
+}
+
+.real-radio:checked + .custom-radio::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.real-radio:focus + .custom-radio {
+    box-shadow: 0 0 2px #333;
+    outline: solid 2px #333;
+}

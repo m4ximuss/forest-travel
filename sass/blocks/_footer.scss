@@ -1,0 +1,93 @@
+.footer {
+    margin-top: auto;   /*  sticky footer   */
+    background-color: #265847;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+
+    transition: text-shadow 0.15s ease-in;
+}
+
+.footer a:hover,
+.footer a:focus {
+    text-shadow: -5px -5px 7px #138ece, 5px 5px 7px #138ece;
+}
+
+.footer a:active {
+    position: relative;
+    top: 1px;
+    color: #9ead9e;
+    text-shadow: -5px -5px 7px #145a80, 5px 5px 7px #145a80;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-widgets-wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer-copyright {
+    width: 270px;
+}
+
+.footer-widget {
+    font-size: 18px;
+}
+
+.footer-widget-info {
+    width: 170px;
+}
+
+.footer-widget-services,
+.footer-widget-contacts {
+    width: 270px;
+}
+
+.footer-widget + .footer-widget {
+    margin-left: 30px;
+}
+
+.footer-widget p {
+    margin-bottom: 15px;
+}
+
+.footer-widget p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-widget-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer-widget-list {
+    font-size: 18px;
+}
+
+.footer-widget-list li {
+    margin-bottom: 15px;
+}
+
+.footer-widget-list li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    margin-bottom: 26px;
+}
+
+.footer-copyright p {
+    font-family: "PT Sans";
+    font-size: 16px;
+    line-height: 1.6;
+}

@@ -1,0 +1,126 @@
+.header {
+    position: relative;
+    height: 800px;
+    padding-top: 50px;
+    background-color: #265847;
+    background-image: url(./../img/index/Rectangle1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url(./../img/tours/header-small-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header-top {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    font-size: 22px;
+}
+
+.header-nav-button {
+    display: none;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-list-item {
+    margin-right: 50px;
+}
+
+.header-nav-list-item:last-child {
+    margin-right: 0;
+}
+
+.header-nav-list a {
+    text-decoration: none;
+    color: #fff;
+    transition: text-shadow 0.2s ease-in, color 0.2s ease-in;
+}
+
+.header-nav-list a:hover,
+.header-nav-list a:focus {
+    color: #465461;
+    text-shadow: 5px 5px 10px #1986b1, -5px -5px 10px #1986b1;
+}
+
+.header-nav-list a:active {
+    position: relative;
+    top: 2px;
+    color: #2b362f;
+    text-shadow: 5px 5px 10px #1986b1, -5px -5px 10px #1986b1;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1170px;
+    text-align: center;
+}
+
+.header-title {
+    margin-top: 17px;
+    margin-bottom: 20px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-content p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+}
+
+.header-scroll {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: inline-block;
+
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    height: 55px;
+
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-scroll::after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "";
+    width: 18px;
+    height: 24px;
+    background-image: url("./../img/icon/arrow-down.svg");
+}
+
+.inner-page-tours-header {
+    margin-bottom: 60px;
+    text-align: center;
+}

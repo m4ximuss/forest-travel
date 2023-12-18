@@ -1,0 +1,68 @@
+.main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.main-row:last-child {
+    margin-bottom: 0;
+}
+
+.main-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.main-content {
+    width: 470px;
+}
+
+.content-title, .content-title-index {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #31405b;
+}
+
+.main-content-title {
+    margin-bottom: 20px;
+}
+
+.main-text {
+    margin-bottom: 40px;
+
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #31405b;
+}
+
+.main-text a {
+    color: #138ece;
+    text-decoration: underline;
+
+    transition: text-shadow 0.2s ease-in;
+}
+
+.main-text a:hover,
+.main-text a:focus {
+    text-shadow: -3px 3px 7px #138ece;
+}
+
+.main-text a:active {
+    position: relative;
+    top: 1px;
+}
+
+.main-text p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.main-img {
+    width: 570px;
+}

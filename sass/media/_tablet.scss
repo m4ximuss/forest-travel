@@ -1,0 +1,229 @@
+/* Tablet 1199-900 */
+@media (max-width:1199px) {
+    .container {
+        width: 900px;
+    }
+
+    /* Header */
+
+    .header {
+        height: 591px;
+    }
+
+    .header-top {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-content {
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-nav-button {
+        display: block;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 52px;
+    }
+
+    .header-scroll {
+        font-size: 0;
+    }
+
+    /* Main */
+
+    .main {
+        padding-top: 80px;
+        padding-bottom: 82px;
+    }
+
+    .main-content {
+        width: 420px;
+    }
+
+    .main-img {
+        width: 420px;
+    }
+
+    .main-img img {
+        width: 100%;
+        height: 93.1%;
+        object-fit: cover;
+    }
+
+    .content-title-index {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .main-text {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .main-row {
+        margin-bottom: 80px;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+
+    .footer-widget-services {
+        display: none;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        width: 195px;
+    }
+
+    .footer-widget-info {
+        width: 195px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+
+    /* Inner */
+
+    .card {
+        width: 420px;
+    }
+
+    .card.big {
+        width: 495px;
+    }
+
+    .card.small {
+        width: 345px;
+    }
+
+    .card-title-wrapper {
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-widgets-wrapper {
+        padding-top: 5px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .content-title {
+        font-size: 50px;
+    }
+
+    .inner-page-tours-header {
+        margin-bottom: 40px;
+    }
+
+    .article-nav-list {
+        font-size: 18px;
+    }
+
+    .article h1 {
+        font-size: 50px;
+        margin-bottom: 13px;
+    }
+
+    .article h2 {
+        margin-top: 20px;
+    }
+
+    .article {
+        width: 570px;
+        font-size: 18px;
+    }
+
+    .article img {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .contacts-row {
+        flex-direction: column;
+    }
+
+    .contacts-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 33px;
+        width: 100%;
+    }
+
+    .input {
+        padding-left: 28px;
+    }
+
+    .contacts-block:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+
+    .contacts-block:last-child {
+        width: 420px;
+    }
+
+    .inner-page-tours {
+        padding-bottom: 60px;
+    }
+
+    .inner-page-hiking {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .inner-page-contacts {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .map {
+        width: 420px;
+        height: 310px;
+    }
+
+    .form {
+        width: 869px;
+    }
+
+    .contacts-block-title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .contacts-block-body {
+        font-size: 18px;
+    }
+
+    .contacts-list-icon:before {
+        top: 0;
+    }
+
+    .footer .logo {
+        font-size: 30px;
+    }
+}
